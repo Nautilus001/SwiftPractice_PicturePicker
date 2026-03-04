@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct PicturePickerApp: App {
+    @State private var path = NavigationPath()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
